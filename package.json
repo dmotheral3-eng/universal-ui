@@ -1,0 +1,24 @@
+{
+  "name": "@centripetal/semester-kit",
+  "version": "0.1.0",
+  "description": "Semester UI kit for Centripetal apps: theme tokens, app Shell, and primitives. Tokens are byte-identical to centripetal-semester and metered by fn_semester_theme_drift.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./tokens": "./src/tokens.js",
+    "./Shell": "./src/Shell.jsx",
+    "./primitives": "./src/primitives.jsx"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
