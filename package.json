@@ -1,7 +1,7 @@
 {
-  "name": "@centripetal/semester-kit",
+  "name": "@centripetal/universal-ui",
   "version": "0.1.0",
-  "description": "Semester UI kit for Centripetal apps: theme tokens, app Shell, and primitives. Tokens are byte-identical to centripetal-semester and metered by fn_semester_theme_drift.",
+  "description": "Universal UI kit for Centripetal apps: theme tokens, app Shell, and primitives.",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",
